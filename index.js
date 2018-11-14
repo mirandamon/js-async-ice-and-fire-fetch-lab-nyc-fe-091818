@@ -15,7 +15,7 @@ function renderBooks(json) {
     if (book.name === 'Game of Thrones') {
       alert('hi')
     } else if (book.name ===  'Clash of Kings') {
-       
+      alert('hello')
     }
     
     const h2 = document.createElement('h2')
