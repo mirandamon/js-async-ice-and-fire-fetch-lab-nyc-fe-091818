@@ -12,7 +12,7 @@ function renderBooks(json) {
   }
   
   json.forEach(book => {
-    if (book.name === 'Game of Thrones') {
+    if (book === 'Game of Thrones') {
       alert('hi')
     } else if (book.name ===  'Clash of Kings') {
       alert('hello')
