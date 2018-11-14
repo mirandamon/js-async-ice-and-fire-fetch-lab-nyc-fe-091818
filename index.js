@@ -8,7 +8,7 @@ function fetchBooks() {
 function renderBooks(json) {
   const main = document.querySelector('main')
   json.forEach(book => {
-    if (book.title)
+    if (book.name )
     
     const h2 = document.createElement('h2')
     h2.innerHTML = `<h2>${book.name}</h2>`
