@@ -18,7 +18,7 @@ function renderBooks(json) {
       alert('hello')
     } else if (book.name === 'Storm of Swords') {
       
-    }
+    } 
     
     switch(book.name) {
       case 'Game of Thrones': {
