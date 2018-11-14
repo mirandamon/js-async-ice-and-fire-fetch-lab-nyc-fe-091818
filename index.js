@@ -14,6 +14,8 @@ function renderBooks(json) {
   json.forEach(book => {
     if (book.name === 'Game of Thrones') {
       alert('hi')
+    } else if (book.name ===  'Clash of Kings') {
+       
     }
     
     const h2 = document.createElement('h2')
