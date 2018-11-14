@@ -20,8 +20,14 @@ function renderBooks(json) {
       
     }
     
-    switch() {
+    switch(book.name) {
+      case 'Game of Thrones': {
+        alert('hi')
+      }
       
+      case 'Clash of Kings' : {
+        alert('hello')
+      }
     }
     
     const h2 = document.createElement('h2')
