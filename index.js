@@ -7,8 +7,14 @@ function fetchBooks() {
 
 function renderBooks(json) {
   const main = document.querySelector('main')
+  for (book of json) {
+    
+  }
+  
   json.forEach(book => {
-    if (book.name )
+    if (book.name === 'Game of Thrones') {
+      alert('hi')
+    }
     
     const h2 = document.createElement('h2')
     h2.innerHTML = `<h2>${book.name}</h2>`
