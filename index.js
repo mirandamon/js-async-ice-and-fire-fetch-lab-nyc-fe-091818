@@ -16,6 +16,12 @@ function renderBooks(json) {
       alert('hi')
     } else if (book.name ===  'Clash of Kings') {
       alert('hello')
+    } else if (book.name === 'Storm of Swords') {
+      
+    }
+    
+    switch() {
+      
     }
     
     const h2 = document.createElement('h2')
